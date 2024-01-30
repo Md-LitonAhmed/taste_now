@@ -44,5 +44,8 @@
   grid-template-columns: auto;
  
 }
-
+.btnGroup {
+  display: grid;
+  grid-template-columns: auto auto;
+}
 }
