@@ -1,0 +1,23 @@
+.head {
+    display: grid;
+    height: 40px;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+  }
+  .addBtn {
+    background-color: #f72d57;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  #foodId{
+    height: 120px;
+    width: 220px;
+  }
+  .orginalCart{
+   text-align: center;
+   margin-right: 80px;
+    
+  }

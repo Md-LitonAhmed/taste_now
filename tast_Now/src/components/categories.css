@@ -1,0 +1,48 @@
+.top {
+  margin-left: 50px;
+}
+.top h2 {
+  margin-top: 5px;
+  text-align: center;
+}
+#commonColor {
+  color: #f72d57;
+}
+#smLogo{
+  height: 25px;
+  width: 25px;
+  margin-right: 5px;
+}
+.title {
+  height: 50px;
+  width: 220px;
+  display: grid;
+  grid-template-columns: auto auto;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(247, 252, 252);
+  border-radius: 2px;
+}
+.pizz {
+  background-color: #f72d57;
+  color: white;
+}
+.btnGroup {
+  display: grid;
+
+  grid-template-columns: auto auto auto auto;
+}
+.cartContainer {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+ 
+}
+@media only screen and (max-width: 600px) {
+
+.cartContainer {
+  display: grid;
+  grid-template-columns: auto;
+ 
+}
+
+}

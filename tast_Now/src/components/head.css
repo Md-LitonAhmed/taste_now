@@ -1,0 +1,43 @@
+.headContainer {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin-left: 50px;
+  margin-bottom: 100px;
+  height: 300px;
+
+  /* background-color: lightgray; */
+  /* background: url(./Ellipse.png);
+  background-repeat: no-repeat;  */
+  /* background-image: url("./Ellipse.png"); */
+}
+#delivery {
+  color: #f72d57;
+}
+/* #infoDiv{
+    height: 400px;
+    width: 400px;
+} */
+.imgDiv {
+  position: relative;
+}
+#posterImg {
+  position: absolute;
+  top: 80px;
+  left: 0;
+  bottom: 0;
+  right: 300px;
+  margin: auto;
+  height: 600px;
+  width: 600px;
+}
+@media only screen and (max-width: 600px) {
+  .headContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+
+     }
+     #posterImg{
+      height: 400px;
+  width: 400px;
+     }
+}

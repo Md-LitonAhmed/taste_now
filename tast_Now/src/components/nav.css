@@ -1,0 +1,38 @@
+.nav-main{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 1240px;
+    height: 77px;
+    margin-top: 20px;
+    margin-left: 50px;
+   
+}
+.nav-item a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  
+}
+.nav-item {
+  list-style-type: none;
+}
+.listItem {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+.shoppingCart{
+    padding: 15px;
+}
+#home{
+  border-bottom: 2px solid #F72D57;  
+}
+.btSingup {
+  width: 140px;
+  height: 46px;
+  background-color: #F72D57;
+  color: white;
+}
+#imgId{
+    height: 50px;
+    width: 120px;
+}
